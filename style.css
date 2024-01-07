@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#ghost {
+    width: 40px;
+    display: inline-block;
+    background: black;
+    background-image: url("red.gif");
+    background-size: contain;
+    position: absolute;
+    left: 700px;
+    top: 730px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+  }
+  
+  .onigiri {
+    width: 40px;
+    display: inline-block;
+    background: black;
+    background-image: url("onigiri.png");
+    background-size: contain;
+  }
+  
+  body {
+    background-color:rgb(241, 145, 0) ;
+  }
+  
+  .row {
+    line-height: 0px;
+  }
+  
+  .wall {
+    background-color: rgb(241, 145, 0);
+    width: 40px;
+    display: inline-block; 
+  }
+  
+  .sushi {
+    width: 40px;
+    display: inline-block;
+    background: black;
+    background-image: url("sushi.png");
+    background-size: contain;
+  }
+  
+  #score {
+    width: 40px;
+    display: inline-block;
+  }
+  
+  .blank {
+    width: 40px;
+    display: inline-block;
+    background: black;
+  }
+  
+  #ninjaman {
+    width: 40px;
+    display: inline-block;
+    background: black;
+    background-image: url("ninja.gif");
+    background-size: contain;
+    position: absolute;
+    left: 40px;
+    top: 80px;
+  }
+  
+  span {
+    margin-right: 40px;
+  }
+  
